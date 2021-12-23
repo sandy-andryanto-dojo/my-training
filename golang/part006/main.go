@@ -36,8 +36,11 @@ func main() {
 	// 	83,
 	// }
 
-	x := make([]float64, 10)
+	// x := make([]float64, 10)
 
+	// fmt.Println(x)
+
+	x := make([]float64, 5, 10)
 	fmt.Println(x)
 
 }
