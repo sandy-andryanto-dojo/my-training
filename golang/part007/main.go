@@ -17,9 +17,9 @@ func main() {
 
 	// fmt.Println(x[1])
 
-	// elements := make(map[string]string)
-	// elements["A"] = "Bandung"
-	// elements["B"] = "Jakarta"
+	elements := make(map[string]string)
+	elements["A"] = "Bandung"
+	elements["B"] = "Jakarta"
 
 	// fmt.Println(elements["B"])
 
@@ -29,12 +29,5 @@ func main() {
 	// if name, ok := elements["A"]; ok {
 	// 	fmt.Println(name, ok)
 	// }
-
-	elements := map[string]map[string]string{
-		"H" : map[string]string{
-			"name": "Hydrogen",
-			"state": "gas"
-		}
-	}
 
 }
