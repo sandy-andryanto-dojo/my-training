@@ -1,6 +1,6 @@
-# hello_world
+# myapp
 
-A new Flutter project.
+a new Flutter Application
 
 ## Getting Started
 
