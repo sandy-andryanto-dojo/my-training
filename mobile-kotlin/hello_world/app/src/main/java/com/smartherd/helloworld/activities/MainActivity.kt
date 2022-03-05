@@ -29,8 +29,9 @@ class MainActivity : AppCompatActivity() {
         val btnRecyclerViewDemo = findViewById<Button>(R.id.btnRecyclerViewDemo)
 
         btnShowToast.setOnClickListener{
-            Log.i(TAG, "Button was clicked !")
-            showToast("Button was clicked !")
+            val btn_clicked: String = resources.getString(R.string.btn_was_clicked)
+            Log.i(TAG, btn_clicked)
+            showToast(btn_clicked)
         }
 
         btnSendMsgToNextActivity.setOnClickListener{
@@ -46,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             intent.action = Intent.ACTION_SEND
             intent.putExtra(Intent.EXTRA_TEXT, message)
             intent.type = "text/plain"
-            startActivity(Intent.createChooser(intent, "Please select app : "))
+            startActivity(Intent.createChooser(intent, resources.getString(R.string.select_app)))
         }
 
         btnRecyclerViewDemo.setOnClickListener{
