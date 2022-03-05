@@ -16,6 +16,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnSuhu = findViewById<Button>(R.id.btnSuhu)
+        btnSuhu.setOnClickListener{
+            var intent = Intent(this, SuhuActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
