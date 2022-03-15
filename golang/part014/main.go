@@ -7,15 +7,15 @@ func main() {
 	elements := map[string]map[string]string{
 		"H": map[string]string{
 			"name": "Hydrogen",
-			"state": "gas"
+			"state": "gas",
 		},
 		"He": map[string]string{
 			"name": "Helium",
-			"state": "gas"
+			"state": "gas",
 		},
 		"Li": map[string]string{
 			"name": "Lithium",
-			"state": "solid"
+			"state": "solid",
 		},
 		"Be": map[string]string{
 			"name":"Beryllium",
@@ -43,8 +43,8 @@ func main() {
 		},
 		"Ne": map[string]string{
 			"name":"Neon",
-			"state":"gas"
-		}
+			"state":"gas",
+		},
 	}
 
 	if el, ok := elements["Li"]; ok{
