@@ -1,0 +1,26 @@
+# Create new application
+> rails new blog 
+> rails new blog -d mysql
+
+# Run Rails Apps
+> rails s
+> rails s -p 3090
+
+#Create Controller
+> rails generate controller Articles
+
+#Create Model
+> rails generate model Article title:string text:text
+
+#Migrate Database
+> rails db:migrate
+
+#Seed Data
+> rake db:seed
+
+#See all routes
+> rails routes
+
+
+
+https://guides.rubyonrails.org/

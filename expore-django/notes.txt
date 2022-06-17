@@ -1,0 +1,34 @@
+# Check django version
+
+> python -m django --version
+
+# Create new project
+
+> django-admin startproject [PROJECT_NAME]
+
+# Create app inside project
+
+> python manage.py startapp polls
+
+# Run Django Application
+
+> python manage.py runserver 
+> python manage.py runserver 7000
+
+# Create migration
+>  python manage.py makemigrations [source_name]
+
+# Run Migration
+> python manage.py migrate
+
+# Create Super User
+> python manage.py createsuperuser
+
+# Create Basic CRUD
+> Register in main app settings.py
+> Create model and migrate
+> Create view function and register route in urls.py current app and main app
+> Create view template list, form and show
+> Create scripts template
+> Navigate url route in main app navigation template
+> RUN IT..
